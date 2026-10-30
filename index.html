@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>رصاصة الرحمة | Bullet of Mercy</title>
+<meta name="description" content="رصاصة الرحمة: لعبة قنص تكتيكية بنظام البحث والتدمير على Roblox. Bullet of Mercy: a snipers-only Search & Destroy shooter on Roblox.">
+<meta name="theme-color" content="#0a1112">
+<meta property="og:title" content="رصاصة الرحمة | Bullet of Mercy">
+<meta property="og:description" content="Snipers only. One life a round. One bullet is enough. A 6v6 Search & Destroy shooter on Roblox.">
+<meta property="og:image" content="assets/img/cover.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Changa:wght@500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-ui="navGame">Skip</a>
+
+<header class="bar" id="top">
+  <div class="bar-in">
+    <a class="brand" href="#top" aria-label="Bullet of Mercy">
+      <img src="assets/img/icon-192.png" alt="" width="36" height="36">
+      <span class="brand-name" data-site="name"></span>
+      <span class="brand-tag" data-site="status"></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#game" data-ui="navGame"></a>
+      <a href="#controls" data-ui="navControls"></a>
+      <a href="#arsenal" data-ui="navArsenal"></a>
+      <a href="#classes" data-ui="navClasses"></a>
+      <a href="#map" data-ui="navMap"></a>
+      <a href="#squad" data-ui="navSquad"></a>
+      <a href="#settings" data-ui="navSettings"></a>
+      <a href="#updates" data-ui="navUpdates"></a>
+      <a href="#faq" data-ui="navFaq"></a>
+    </nav>
+    <div class="bar-act">
+      <button class="lang" id="lang" type="button" data-ui="langSwitch"></button>
+      <a class="btn btn-sm play-link" href="#" data-ui="play" target="_blank" rel="noopener"></a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span><b class="sr" data-ui="menu"></b></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <img class="hero-bg" src="assets/img/cover-clean.jpg" alt="" fetchpriority="high">
+    <svg class="hero-reticle" viewBox="0 0 400 400" aria-hidden="true">
+      <circle cx="200" cy="200" r="196" />
+      <line x1="0" y1="200" x2="170" y2="200" /><line x1="230" y1="200" x2="400" y2="200" />
+      <line x1="200" y1="0" x2="200" y2="170" /><line x1="200" y1="230" x2="200" y2="400" />
+      <g class="ticks"><line x1="200" y1="250" x2="200" y2="254"/><line x1="194" y1="270" x2="206" y2="270"/><line x1="196" y1="290" x2="204" y2="290"/><line x1="192" y1="310" x2="208" y2="310"/></g>
+    </svg>
+    <div class="hero-in">
+      <h1 class="hero-title"><img src="assets/img/title.png" alt="رصاصة الرحمة · Bullet of Mercy" width="1100" height="271"><span class="sr" data-site="name"></span></h1>
+      <p class="hero-tag" data-ui="heroTag"></p>
+      <p class="hero-text" data-ui="heroText"></p>
+      <div class="hero-cta">
+        <a class="btn play-link" href="#" data-ui="play" target="_blank" rel="noopener"></a>
+        <a class="btn btn-ghost" href="#trailer" data-ui="watch"></a>
+      </div>
+      <ul class="hero-chips" id="heroChips"></ul>
+    </div>
+  </section>
+
+  <div id="sections"></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="foot-brand">
+      <img src="assets/img/icon-192.png" alt="" width="48" height="48">
+      <div>
+        <strong data-site="name"></strong>
+        <p data-ui="footerNote"></p>
+        <p class="dim" data-ui="footerRoblox"></p>
+      </div>
+    </div>
+    <ul class="foot-links" id="footLinks"></ul>
+    <a class="to-top" href="#top" data-ui="backTop"></a>
+  </div>
+</footer>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
