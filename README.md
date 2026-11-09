@@ -10,7 +10,11 @@ The game's website: Arabic and English, one page, no build step. Open `index.htm
 | `assets/js/content.js` | **All the text and numbers, in both languages.** Edit this to change the site. |
 | `assets/js/app.js` | Builds the sections from `content.js` and runs the language button |
 | `assets/css/style.css` | The look |
-| `assets/img/` | Pictures (cover, guns, gear, map) |
+| `assets/img/` | Pictures (cover, logo, gear renders) |
+| `assets/img/shots/` | In-game shots from the trailer stills (`Trailer/stills`), 1280 px JPGs: maps, weapons, gear |
+
+Last full update: 2026-11-09 (5 modes, 4 maps, 9 weapons, gear, field upgrades, levels 1-55, controller and phone).
+The old 2026-10-30 version is kept outside this folder in `../website-backup-2026-10-30/`.
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
 ## Put it online for free (GitHub Pages)
